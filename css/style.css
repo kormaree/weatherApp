@@ -1,0 +1,195 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    font-family: "Jost", sans-serif;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EFE7E0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 351px;
+    background-color: #71A553;
+    opacity: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 64px;
+    color: #F6EEEE;
+    font-weight: 400;
+    width: 343px;
+    height: 92px;
+    margin-top: 14px;
+}
+
+.container_latitude-longitude {
+    display: flex;
+    flex-direction: row;
+    width: 1139px;
+    height: 111px;
+    margin-top: 17px;
+}
+
+.container_latitude-longitude_latitude {
+    width: 498px;
+    height: 77px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 6px;
+    margin-top: 16px;
+    margin-right: 101px;
+}
+
+.container_latitude-longitude_latitude h2 {
+    width: 179px;
+    height: 69px;
+    color: #F6EEEE;
+    font-weight: 400;
+    font-size: 48px;
+    margin-right: 36px;
+}
+
+.container_latitude-longitude_latitude_input {
+    background-color: #F6EEEE;
+    border: none;
+    width: 260px;
+    height: 51px;
+    margin-top: 13px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container_latitude-longitude_longitude {
+    display: flex;
+    flex-direction: row;
+    width: 543px;
+    height: 75px;
+    margin-top: 8px;
+}
+
+.container_latitude-longitude_longitude h2 {
+    width: 184px;
+    height: 69px;
+    color: #F6EEEE;
+    font-weight: 400;
+    font-size: 48px;
+    margin-right: 46px;
+    margin-left: 26px;
+    margin-top: 6px;
+}
+
+.container_latitude-longitude_longitude_input {
+    background-color: #F6EEEE;
+    border: none;
+    width: 260px;
+    height: 51px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container button {
+    width: 260px;
+    height: 51px;
+    margin-top: 40px;
+    border-radius:8px;
+    border: none;
+    background-color: #447642;
+    opacity: 93%;
+    font-size: 32px;
+    color: #F6EEEE;
+}
+
+.container button:hover {
+    cursor: pointer;
+}
+
+
+.oblako {
+    position: absolute;
+    top: 171px;
+    left: 0
+}
+
+.sun {
+    position: absolute;
+    top: 5px;
+    right: 28px;
+}
+
+.current-weather {
+    width: 80%;
+    height: 337px;
+    background-color: #71A553;
+    opacity: 85%;
+    margin-top: 94px;
+    border-radius: 20px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.current-weather_container_info {
+    width: 618px;
+    height: 300px;
+    margin-top: 18px;
+    margin-left: 44px;
+}
+
+.current-weather_container_info h1 {
+    width: 576px;
+    height: 114px;
+    color: #F6EEEE;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.current-weather_container_info h2 {
+    width: 500px;
+    height: 69px;
+    color: #F6EEEE;
+    font-weight: 400;
+    font-size: 48px;
+    margin-top: 10px;
+}
+
+.picture-weather {
+    width: 360px;
+    height: 330px;
+}
+
+#map {
+    width: 500px;
+    height: 337px;
+}
+
+.button-delete {
+    background-color: red;
+    opacity: 70%;
+    border: none;
+    border-radius: 20px;
+    margin-top: 120px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+.button-delete:hover {
+    cursor: pointer;
+}

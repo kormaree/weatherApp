@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=36d3db22-736c-4632-a8ce-64a6c8e14759" type="text/javascript"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя Погода</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="container">
+        <h1>Моя погода</h1>
+        <div class="container_latitude-longitude">
+            <form class="container_latitude-longitude_latitude">
+                <h2>Широта:</h2>
+                <input id="input-latitude" type="text" class="container_latitude-longitude_latitude_input" placeholder="Введите широту">
+            </form>
+            <form class="container_latitude-longitude_longitude">
+                <h2>Долгота:</h2>
+                <input id="input-longitude" type="text" class="container_latitude-longitude_longitude_input" placeholder="Введите долготу">
+            </form>
+        </div>
+        <button id = "btn">Показать погоду</button>
+        <img class = "oblako" src="images/Partly Cloudy.png" alt="Облако">
+        <img class = "sun" src="images/Sunny.png" alt="Солнце">
+    </header>
+    <script src="index.js" type="module"></script>
+    <script src="conditions.js" type="module"></script>
+</body>
+</html>
